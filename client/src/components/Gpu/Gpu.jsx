@@ -30,13 +30,12 @@ const Gpu = ({ data }) => {
           <div className="displays" key={"display"}>
             <h3>Displays</h3>
             <>
-              <p>{vendor}</p>
-              <p>{model}</p>
-              <p>{resolutionX}</p>
-              <p>{resolutionY}</p>
-              <p>{currentRefreshRate}</p>
-              <p>{sizeX}</p>
-              <p>{sizeY}</p>
+              Vendor: <p>{vendor}</p>
+              Model: <p>{model}</p>
+              Resolution: <p>{resolutionX}x{resolutionY}</p>
+              Refreshrate: <p>{currentRefreshRate}</p>
+              SizeX: <p>{sizeX}</p>
+              SizeY: <p>{sizeY}</p>
             </>
           </div>
         )

@@ -17,6 +17,7 @@ const OsContainer = () => {
 
   return (
     <section className="section">
+      <div className="container">
       {data === null ? (
         <div>loading...</div>
       ) : (
@@ -24,6 +25,7 @@ const OsContainer = () => {
           <Os data={data} />
         </>
       )}
+      </div>
     </section>
   );
 };

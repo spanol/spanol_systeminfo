@@ -1,7 +1,7 @@
 const Ram = ({ data }) => {
     const { active, available, free } = data;
     return (
-        <div className="battery">
+        <div className="ram">
             <h1>Ram info:</h1>
             <p>Active ram: {active}</p>
             <p>Available ram: {available}</p>

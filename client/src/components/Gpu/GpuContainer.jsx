@@ -17,6 +17,7 @@ const GpuContainer = () => {
 
   return (
     <section className="section">
+      <div className="container">
       {data === null ? (
         <div>loading...</div>
       ) : (
@@ -24,6 +25,7 @@ const GpuContainer = () => {
           <Gpu data={data} />
         </>
       )}
+      </div>
     </section>
   );
 };

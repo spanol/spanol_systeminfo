@@ -17,13 +17,13 @@ const RamContainer = () => {
 
   return (
     <section className="section">
+      <div className="container">
       {data === null ? (
         <div>loading...</div>
       ) : (
-        <>
           <Ram data={data} />
-        </>
       )}
+      </div>
     </section>
   );
 };
