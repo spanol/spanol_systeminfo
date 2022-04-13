@@ -1,0 +1,15 @@
+{
+  "name": "spanol_systeminfo",
+  "version": "0.0.1",
+  "description": "Back-end em nodejs que retorna informações de hardware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spanol",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "systeminformation": "^5.11.9"
+  }
+}
