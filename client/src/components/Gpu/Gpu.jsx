@@ -9,10 +9,10 @@ const Gpu = ({ data }) => {
         <div className="controllers" key={"controller"}>
           <h3>Controllers</h3>
           <>
-            <p>{vendor}</p>
-            <p>{model}</p>
-            <p>{subDeviceId}</p>
-            <p>{vram}</p>
+            <p>Vendor: {vendor}</p>
+            <p>Model: {model}</p>
+            <p>DeviceId: {subDeviceId}</p>
+            <p>Vram: {vram}</p>
           </>
         </div>
       ))}

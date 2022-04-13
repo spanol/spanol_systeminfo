@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 // import { Api } from "../../Api/Api";
 import Ram from "./Ram";
-
+// adicionar opção de tempo real
 const RamContainer = () => {
   const [data, setData] = useState(null);
 

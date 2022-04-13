@@ -3,11 +3,11 @@ const Battery = ({ data }) => {
   return (
     <div className="battery">
       <h1>Cpu info:</h1>
-      <p>{hasBattery ? "true" : "false"}</p>
-      <p>{currentCapacity}</p>
-      <p>{percent}%</p>
-      <p>{isCharging}</p>
-      <p>{model}</p>
+      <p>Has battery: {hasBattery ? "true" : "false"}</p>
+      <p>Battery capacity: {currentCapacity}</p>
+      <p>Battery percent: {percent}%</p>
+      <p>Is charging: {isCharging ? "true" : "false"}</p>
+      <p>Battery model: {model}</p>
     </div>
   );
 };

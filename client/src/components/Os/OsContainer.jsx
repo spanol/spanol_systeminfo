@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 // import { Api } from "../../Api/Api";
-import Gpu from "./Gpu";
+import Os from "./Os";
 
 const OsContainer = () => {
   const [data, setData] = useState(null);
@@ -21,7 +21,7 @@ const OsContainer = () => {
         <div>loading...</div>
       ) : (
         <>
-          <Gpu data={data} />
+          <Os data={data} />
         </>
       )}
     </section>

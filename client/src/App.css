@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -9,10 +11,20 @@ body,html,#root{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Cairo', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.flex{
+    display: flex;
 }
 
 .container{
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -31,6 +43,8 @@ body,html,#root{
 
 .header{
     background-color: #ce1010;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .main{

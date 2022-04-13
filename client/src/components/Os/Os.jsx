@@ -1,13 +1,12 @@
 const Os = ({ data }) => {
-    // const {} = data;
+    const {platform, distro, hostname, serial} = data;
     return (
         <div className="battery">
             <h1>Os info:</h1>
-        {/* <p>{hasBattery ? "true" : "false"}</p>
-        <p>{currentCapacity}</p>
-        <p>{percent}%</p>
-        <p>{isCharging}</p>
-        <p>{model}</p> */}
+            <p>platform: {platform}</p>
+            <p>distro: {distro}</p>
+            <p>hostname: {hostname}</p>
+            <p>Serial: {serial}</p>
         <h1>Os</h1>
         </div>
     )

@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import { useTheme } from "../../context/Context";
 // import { Api } from "../../Api/Api";
 import Battery from "./Battery";
 
 const BatteryContainer = () => {
+  const { theme, setTheme} = useTheme()
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -19,7 +21,7 @@ const BatteryContainer = () => {
   //   if(data === null) return <div>loading....</div>
 
   return (
-    <section className="section">
+    <section  className="section">
       {data === null ? (
         <div>loading...</div>
       ) : (
